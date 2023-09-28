@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  height: 100vh; /* make the body take the full viewport height */
+  display: flex; /* turn body into a flex container */
+  justify-content: center; /* center content horizontally */
+  align-items: center; /* center content vertically */
+  background-color: #f4f4f4; /* optional: set a background color */
+}
+
+img {
+  max-width: 100%; /* make sure the image doesn't overflow the viewport */
+  max-height: 100%;
+}
